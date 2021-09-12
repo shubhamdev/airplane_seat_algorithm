@@ -1,0 +1,69 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  background: #eeeeee;
+}
+
+div label {
+  display: block;
+  width: 40rem;
+  text-align: left;
+}
+.main{
+  display: block;
+    align-items: center;
+    padding-left: 38%;
+}
+
+input {
+  width: 20rem;
+  padding: 0.7rem;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button{
+  width: 8rem;
+    height: 2.5rem;
+    background-color: #14a5a5;
+    border: 1px solid blue;
+
+}
+
+#button1 {
+  background-color: #b7cfcf;
+}
+
+label{
+  color: blueviolet;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(100, 53, 53);
+  margin: 1%;
+}
+
+td {
+  border: 1px solid grey;
+  height: 1em;
+  width: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.row1 {
+  background-color:#55b7ff;
+}
+
+.row2 {
+  background-color: #38ec3e;
+}
+
+.row3 {
+  background-color: #ff5272;
+}
+.airplane {
+  display: flex;
+  justify-content: center;
+}

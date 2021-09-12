@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>airplane seatng algorithm squareshift</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="main">
+        <span>
+            <label for="rowsColumns">AirPlane Seating Arrangement</label>
+            <input id="airPlaneSeatingArrangement" type="text" value="[ [3,4], [4,5],[2,3], [3,4] ]" disabled
+                placeholder="[[x,y], [x,y], [x,y]]">
+        </span>
+        <span>
+            <label for="queue">Passenger In Queue</label>
+            <input id="passengerInQueue" placeholder="Enter number only" type="text">
+
+        </span>
+        <span>
+            <button id="button" type="button">Book Your Seat</button>
+            <button id="button1" type="button">Reset</button>
+        </span>
+
+    </div>
+
+    <div class="airplane" id="seats"></div>
+    <script src="src/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.min.js"></script>
+    <script src="src/app.test.js"></script>
+</body>
+
+</html>
